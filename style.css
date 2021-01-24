@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+	background : linear-gradient(120deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+}
+
+h1{
+    color: white;
+    text-align:center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4rem;
+}
+
+h2{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-left: 30;
+    font-size: 2rem;
+}
+
+p{
+    color: black;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 20px;
+}
+
+.whatIsCoronaVirus{
+    border-radius: 50px;
+    border: red solid 2px;
+    width: 25%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    background: pink;
+}
+
+
+.answer1{
+    border-radius: 50px;
+    border: red solid 2px;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 60px;
+    background: linear-gradient(160deg, rgba(255,255,255,0.7),rgba(0, 255,255, 0.7));
+}
+
+.coronaIMG{
+    border-radius: 50px;
+    border: red solid 2px;
+    width: 25%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    background: pink;
+}
+
+.coronaImage{
+    display: block;
+    margin-left: 400px;
+    margin-right: auto;
+    width: 45%;
+}
+
+.coronaStructure{
+    border-radius: 50px;
+    border: red solid 2px;
+    width: 25%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    background: pink;
+}
+
+.answer2{
+    border-radius: 50px;
+    border: red solid 2px;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 60px;
+    background: linear-gradient(160deg, rgba(255,255,255,0.7),rgba(0, 255,255, 0.7));
+}
+
+.coronaImpact{
+    border-radius: 50px;
+    border: red solid 2px;
+    width: 25%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    background: pink;
+}
+
+.answer3{
+    border-radius: 50px;
+    border: red solid 2px;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 60px;
+    background: linear-gradient(160deg, rgba(255,255,255,0.7),rgba(0, 255,255, 0.7));
+}
+
+.symptoms{
+    border-radius: 50px;
+    border: red solid 2px;
+    width: 25%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    background: pink;
+}
+
+.answer4{
+    border-radius: 50px;
+    border: red solid 2px;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 60px;
+    background: linear-gradient(160deg, rgba(255,255,255,0.7),rgba(0, 255,255, 0.7));
+}
+
+.prevention{
+    border-radius: 50px;
+    border: red solid 2px;
+    width: 26%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    background: pink;
+}
+
+.answer5{
+    border-radius: 50px;
+    border: red solid 2px;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 60px;
+    background: linear-gradient(160deg, rgba(255,255,255,0.7),rgba(0, 255,255, 0.7));
+}
+
+.vaccination{
+    border-radius: 50px;
+    border: red solid 2px;
+    width: 25%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    background: pink;
+}
+.answer6{
+    border-radius: 50px;
+    border: red solid 2px;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 60px;
+    background: linear-gradient(160deg, rgba(255,255,255,0.7),rgba(0, 255,255, 0.7));
+}
+
+.btn{
+    width: 150px;
+    height: 75px;
+    background: rgba(255, 0, 0, 0.7);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+
+.btn:hover{
+    background: rgba(0, 225, 255, 0.6);
+    cursor: pointer;
+}
+
+.btn2{
+    width: 150px;
+    height: 75px;
+    background: rgba(255, 0, 0, 0.7);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+
+.btn2:hover{
+    background: rgb(255, 121, 143);
+    cursor: pointer;
+}
